@@ -11,6 +11,9 @@
     font-family: 'Poppins', sans-serif;
  
 }
+.bg-blue1{
+    background-color: #654dad;
+}
 .bg-blue{
     background-color: #283352;
 }
@@ -26,6 +29,9 @@
 .bg-warning2{
     background: #FA9005;
 }
+.bg-purple{
+    background: #1F1631;
+}
 .text-danger2{
     color: #D5385E !important;
 }
@@ -35,6 +41,9 @@ color: #376118;
 .text-dark2{
     color: #161616;
 }
+.text-orange{
+    color:#ffa500;
+}
 .top-10{
     top:10%;
 }
@@ -43,6 +52,11 @@ color: #376118;
 }
 .top-20{
     top:20%;
+}
+p{
+    font-size: 14px;
+    margin: 0px;
+    line-height: 25px;
 }
 
 /* banner section start */
@@ -63,9 +77,29 @@ color: #376118;
 
 /* fun section start */
 .fun{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/maoun.jpeg);
+    background-size: 100% 100%;
+    /* background-position: 100% 100%; */
 }
 /* /fun section end */
+
+/* newsletter section start */
+.newsletter{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/plane.jpeg);
+    background-size: 100% 100%;
+}
+/* /newsletter section end */
+
+/* footer section start */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px ;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/plane.jpeg);
+    background-size: 100% 100%;
+    
+}
+/* /footer section end */
 
 /* media query section start */
 @media screen and (min-width:992px){
